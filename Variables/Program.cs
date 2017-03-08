@@ -11,6 +11,7 @@ namespace Variables
         static void Main(string[] args)
         {
             /*
+            variable declarations
             int x;
             int y;
 
@@ -24,11 +25,12 @@ namespace Variables
             Console.WriteLine("What is your name?");
             Console.Write("Type your first name: ");
             string myFirstName;
+            //operand operator expression
             myFirstName = Console.ReadLine();
 
-            string myLastName;
+            //this time, initialize the variable and give it value at the same time
             Console.Write("Type your last name: ");
-            myLastName = Console.ReadLine();
+            string myLastName = Console.ReadLine();
 
             Console.WriteLine("Hello, " + myFirstName + " " + myLastName);
             Console.ReadLine();
