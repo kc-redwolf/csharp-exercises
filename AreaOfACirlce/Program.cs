@@ -16,9 +16,9 @@ namespace AreaOfACirlce
             radius = double.Parse(Console.ReadLine());
 
             double area;
-
-            area = Math.PI * radius * radius;
-
+            area = 3.14 * radius * radius;
+            // or... area = Math.PI * radius * radius;
+            // or... area = Math.PI * Math.Pow(radius, 2);
 
 
             string message = "The area of a circle with radius {0} is: {1:0.###}";
